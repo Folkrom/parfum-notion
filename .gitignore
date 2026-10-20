@@ -1,0 +1,22 @@
+# Raw downloads of social posts (large, third-party content, reproducible)
+inbox/
+
+# Bottle images are cropped from creators' posts; they live in Notion.
+# Remove these two lines if the repo is private and you want them versioned.
+attachments/*
+!attachments/.gitkeep
+
+# Obsidian per-device state
+.obsidian/workspace*.json
+.obsidian/cache
+.trash/
+
+# Secrets (future enrichment APIs, browser cookie exports)
+.env
+*.cookies.txt
+cookies.txt
+
+# Python / OS
+__pycache__/
+*.pyc
+.DS_Store
